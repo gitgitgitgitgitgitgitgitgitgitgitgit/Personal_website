@@ -1,9 +1,5 @@
 import streamlit as st
 
-
-
-
-
 # Create tabs for different sections of your portfolio
 tab1, tab2, = st.tabs(["Home", "Projects"])
 
@@ -14,7 +10,6 @@ with tab1:
     st.write("""I’m a high school student with a passion for creative problem-solving and defending against cyber threats. I love exploring innovative ways to outsmart threat actors and stay ahead in the ever-evolving world of cybersecurity. When I'm not doing schoolwork or working on projects, you can find me playing the bass, reading, or acting in musicals.
 
 Through the Google Professional Cybersecurity Certification, I’m eager to build on my skills and gain the experience needed to make an impact in the field.""")
-
 
 with tab2:
     st.title("Projects")
@@ -82,14 +77,6 @@ with tab2:
            
         st.write("google cyber portfolio piece 6.")
     
-
-
-    
-
-
-
-
-
 # Sidebar with buttons
 st.sidebar.title("Connect with Me")
 st.sidebar.link_button("LinkedIn", "https://www.linkedin.com/in/mischa-nelson-4a60842a7")
