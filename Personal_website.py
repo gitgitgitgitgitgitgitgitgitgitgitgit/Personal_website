@@ -32,7 +32,7 @@ with tab2:
     with col2:
         if st.button("Personal Website"):
             st.link_button("Go to project", "https://github.com/gitgitgitgitgitgitgitgitgitgitgitgit/Personal_website")
-        st.write("A Streamlit website that showcases my projects and provides information about me.")
+        st.write("This website, coded 100% In python to showcase my projects and provides information about me.")
 
     st.markdown("---")  # Separator line
 
