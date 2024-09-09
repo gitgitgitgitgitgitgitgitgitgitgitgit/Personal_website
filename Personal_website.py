@@ -11,6 +11,25 @@ with tab1:
 
 Through the Google Professional Cybersecurity Certification, I’m eager to build on my skills and gain the experience needed to make an impact in the field.""")
 
+
+
+     # Certifications Section
+    st.markdown("### Certifications")
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.markdown("**PMI Project Management Ready**")
+        with open("PMI Project Management Ready.pdf", "rb") as file:
+            st.download_button("View Certification", file, file_name="PMI_Project_Management_Ready.pdf")
+
+    with col2:
+        st.markdown("**Autodesk Certified User: Fusion 360®**")
+        with open("Autodesk Certified User Fusion 360.pdf", "rb") as file:
+            st.download_button("View Certification", file, file_name="Autodesk_Certified_User_Fusion_360.pdf")
+
+    
+
+
 with tab2:
     st.title("Projects")
     st.write("Below are the projects that I have completed, are in progress, or are to-do:")
