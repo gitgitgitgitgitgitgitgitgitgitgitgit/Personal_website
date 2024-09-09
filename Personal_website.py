@@ -14,6 +14,7 @@ Through the Google Professional Cybersecurity Certification, I’m eager to buil
 
 
      # Certifications Section
+    st.markdown("---")  # Separator line
     st.markdown("### Certifications")
     col1, col2 = st.columns(2)
 
