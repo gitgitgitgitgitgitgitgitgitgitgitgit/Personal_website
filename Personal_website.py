@@ -5,7 +5,7 @@ tab1, tab2, = st.tabs(["Home", "Projects"])
 
 # Home Page
 with tab1:
-    st.title("Welcome to My Portfolio")
+    st.title("Mischa Nelson")
     
     st.write("""I’m a high school student with a passion for creative problem-solving and defending against cyber threats. I love exploring innovative ways to outsmart threat actors and stay ahead in the ever-evolving world of cybersecurity. When I'm not doing schoolwork or working on projects, you can find me playing the bass, reading, or acting in musicals.
 
