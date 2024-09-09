@@ -10,8 +10,7 @@ tab1, tab2, = st.tabs(["Home", "Projects"])
 # Home Page
 with tab1:
     st.title("Welcome to My Portfolio")
-    # st.image("your_image.jpg", width=300)
-
+    
     st.write("""I’m a high school student with a passion for creative problem-solving and defending against cyber threats. I love exploring innovative ways to outsmart threat actors and stay ahead in the ever-evolving world of cybersecurity. When I'm not doing schoolwork or working on projects, you can find me playing the bass, reading, or acting in musicals.
 
 Through the Google Professional Cybersecurity Certification, I’m eager to build on my skills and gain the experience needed to make an impact in the field.""")
@@ -27,12 +26,12 @@ with tab2:
 
     with col1:
         if st.button("Door Alarm"):
-            st.link_button("Go to project", "https://www.example.com/door_alarm")
+            st.link_button("Go to project", "https://github.com/gitgitgitgitgitgitgitgitgitgitgitgit/Micro-bit_door_alarm")
         st.write("A Python project utilizing two micro:bits and a computer to send a Telegram message when a door is opened or closed.")
 
     with col2:
         if st.button("Personal Website"):
-            st.link_button("Go to project", "https://www.example.com/personal_website")
+            st.link_button("Go to project", "https://github.com/gitgitgitgitgitgitgitgitgitgitgitgit/Personal_website")
         st.write("A Streamlit website that showcases my projects and provides information about me.")
 
     st.markdown("---")  # Separator line
